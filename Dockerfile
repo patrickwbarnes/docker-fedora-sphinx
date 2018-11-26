@@ -19,5 +19,3 @@ RUN dnf -y install \
 
 RUN ln -s /usr/bin/sphinx-build-3 /usr/bin/sphinx-build
 
-CMD ["/bin/bash"]
-
