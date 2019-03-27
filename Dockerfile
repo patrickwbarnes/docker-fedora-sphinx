@@ -23,6 +23,7 @@ RUN dnf -y install \
   texlive-ec \
   texlive-cm-super \
   unzip \
+  wkhtmltopdf \
   xz \
   zip \
  && dnf clean all
