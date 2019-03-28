@@ -40,5 +40,5 @@ RUN dnf -y install \
 
 RUN ln -s /usr/bin/sphinx-build-3 /usr/bin/sphinx-build
 
-RUN strip -R .note.ABI-tag /lib64/libQt5Core.so.5.11.3
+RUN strip -R .note.ABI-tag /lib64/libQt5Core.so.5
 
